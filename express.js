@@ -7,9 +7,9 @@ if(req.url === '/'){
     const homePageHTML = fs.readFileSync('index.html');
     res.write(homePageHTML);
     res.end();
-} else if(req.url === "/node.png"){
+} else if(req.url === "/work-trends.png"){
     res.writeHead(200,{'content-type':'image/png'});
-    const image = fs.readFileSync('node.png');
+    const image = fs.readFileSync('work-trends.png');
     res.write(image);
     res.end();
 } else if(req.url === "/styles.css"){
