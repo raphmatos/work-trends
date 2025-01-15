@@ -35,24 +35,38 @@
 </nav>
 
 <div class="d-flex flex-column bd-highlight mb-3 mt-3 ms-3 justify-content-start">
+
 <div class="card mb-3" style="width: 18rem;">
   <img src="work-trends.png" class="card-img-top" alt="Laptop with some graphs">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+
+<div class="card mb-3" style="width: 18rem;">
   <div class="card-header">
     Featured
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
+  <form class="card-body">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <select class="form-select mb-3" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <label for="customRange1" class="form-label">Example range</label>
+    <input type="range" class="form-range" id="customRange1">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
-</div>
-
 
 </body>
 
